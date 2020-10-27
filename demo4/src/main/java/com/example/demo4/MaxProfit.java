@@ -15,6 +15,6 @@ public class MaxProfit {
 	输出: 0
 	解释: 在这种情况下, 没有交易完成, 所以最大利润为 0。*/
 	public int maxProfit(int[] prices) {
-
+		return 0;
 	}
 }

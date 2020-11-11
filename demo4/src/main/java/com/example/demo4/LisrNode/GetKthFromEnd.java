@@ -1,4 +1,6 @@
-package com.example.demo4;
+package com.example.demo4.LisrNode;
+
+import com.example.demo4.LisrNode.ListNode;
 
 /** 简单
  * @Description: 链表中倒数第k个节点

@@ -1,4 +1,4 @@
-package com.example.demo4;
+package com.example.demo4.LisrNode;
 
 /** 简单
  * @Description: 反转链表

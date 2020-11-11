@@ -1,4 +1,6 @@
-package com.example.demo4;
+package com.example.demo4.LisrNode;
+
+import com.example.demo4.LisrNode.ListNode;
 
 /** 中等
  * @Description: 两数相加
@@ -25,7 +27,8 @@ public class AddTwoNumbers {
 			int n2 = l2 != null ? l2.val : 0;
 			int sum = n1 + n2 + carry;
 			if (head == null) {
-				head = tail = new ListNode(sum % 10);
+				tail = new ListNode(sum % 10);
+				head = tail;
 			} else {
 				tail.next = new ListNode(sum % 10);
 				tail = tail.next;

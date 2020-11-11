@@ -1,4 +1,6 @@
-package com.example.demo4;
+package com.example.demo4.TreeNode;
+
+import com.example.demo4.TreeNode.TreeNode;
 
 import java.util.LinkedList;
 import java.util.List;

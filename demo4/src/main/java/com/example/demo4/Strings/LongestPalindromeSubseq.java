@@ -1,4 +1,4 @@
-package com.example.demo4;
+package com.example.demo4.Strings;
 
 /**
  * 四星  动态规划

@@ -1,4 +1,4 @@
-package com.example.demo4;
+package com.example.demo4.Strings;
 
 /**
  * @Description: 最长公共前缀

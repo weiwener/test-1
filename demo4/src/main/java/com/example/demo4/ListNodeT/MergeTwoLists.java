@@ -1,4 +1,4 @@
-package com.example.demo4.LisrNode;
+package com.example.demo4.ListNodeT;
 
 /** 简单
  * @Description: 合并两个排序的链表

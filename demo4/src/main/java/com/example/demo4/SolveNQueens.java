@@ -8,4 +8,5 @@ package com.example.demo4;
  * @Date: 2020/11/13 下午3:00
  */
 public class SolveNQueens {
+
 }

@@ -1,6 +1,4 @@
-package com.example.demo4.LisrNode;
-
-import com.example.demo4.LisrNode.ListNode;
+package com.example.demo4.ListNodeT;
 
 /** 中等
  * @Description: 删除链表的倒数第N个节点

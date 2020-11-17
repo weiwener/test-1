@@ -20,18 +20,33 @@ package com.example.demo4.ListNodeT;
  */
 public class SwapPairs {
 	public ListNode swapPairs(ListNode head) {
-		if (head == null) {
-			return head;
+//		if (head == null) {
+//			return head;
+//		}
+//		ListNode cur = head, pre = cur.next;
+//		int tmp = 0;
+//		while (cur != null && pre != null) {
+//			tmp = pre.val;
+//			pre.val = cur.val;
+//			cur.val = tmp;
+//			cur = pre.next;
+//			pre = cur == null ? null : cur.next;
+//		}
+//		return head;
+
+		//官方答案
+		ListNode node = new ListNode(-1);
+		node.next = head;
+		ListNode pre = node;
+		while (pre.next != null && pre.next.next != null) {
+			ListNode l1 = pre.next, l2 = pre.next.next;
+			ListNode next = l2.next;
+			l1.next = next;
+			l2.next = l1;
+			pre.next = l2;
+
+			pre = l1;
 		}
-		ListNode cur = head, pre = cur.next;
-		int tmp = 0;
-		while (cur != null && pre != null) {
-			tmp = pre.val;
-			pre.val = cur.val;
-			cur.val = tmp;
-			cur = pre.next;
-			pre = cur == null ? null : cur.next;
-		}
-		return head;
+		return node.next;
 	}
 }
